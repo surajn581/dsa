@@ -125,7 +125,7 @@ class RedBlackNode(BinaryNode):
     
     @property
     def isBlack(self):
-        return not self.isRED
+        return not self.isRed
     
     def __repr__(self) -> str:        
         return "{value}:{color}".format(value = super().__repr__(), color = self.color[0])
